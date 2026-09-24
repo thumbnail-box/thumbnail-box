@@ -2,23 +2,72 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>サムネイルボックス — Amiga Copper Poetry</title>
     <style>
-        body { font-family: Georgia, serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-        header { text-align: center; margin-bottom: 40px; }
-        img#header { width: 100%; height: auto; border-radius: 8px; }
-        article { border-left: 3px solid #6d4aff; padding-left: 20px; }
+        body {
+            font-family: 'Georgia', 'Yu Gothic', serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #faf7f0;
+            color: #2a2a2a;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        #header {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 2.2em;
+            margin-top: 20px;
+            color: #6d4aff;
+        }
+        .tagline {
+            font-style: italic;
+            color: #666;
+            margin-top: 10px;
+        }
+        article {
+            border-left: 3px solid #6d4aff;
+            padding-left: 25px;
+            margin: 30px 0;
+        }
+        article h2 {
+            margin-top: 0;
+        }
+        time {
+            color: #888;
+            font-size: 0.9em;
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            color: #999;
+            font-size: 0.85em;
+        }
     </style>
 </head>
 <body>
     <header>
         <img id="header" src="header.jpg" alt="Copper Woodblock Header">
         <h1>サムネイルボックス</h1>
-        <p>Amigaカスタムチップを詩として読む実験</p>
+        <p class="tagline">Amigaカスタムチップを詩として読む実験</p>
     </header>
+
     <article>
-        <h2><a href="first_poem.html">冬の窓 — 最初のコッパー俳句</a></h2>
+        <h2><a href="#">冬の窓 — 最初のコッパー俳句</a></h2>
         <time>2026年9月24日</time>
+        <p>コッパー指令を五・七・五のリズムで記述する試みの第一歩。</p>
     </article>
+
+    <footer>
+        <p>© 2026 Thumbnail Box — Amiga Hardware Poetry Archive</p>
+    </footer>
 </body>
 </html>
