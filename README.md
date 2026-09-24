@@ -1,4 +1,6 @@
-## Hi there 👋
+Commodore Amiga（1985年発売）の独自カスタムチップ**「Copper」**を、**俳句の五・七・五**のように読み解く芸術実験です。
+
+コッパー指令の `WAIT` 命令を「間（ま）」とし、パレットレジスタの変更を「筆致」と見なします。1フレーム＝50Hzという時間制約の中で、いかに美を凝縮するか——それがこの創作の核心です。
 
 <!--
 **thumbnail-box/thumbnail-box** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
